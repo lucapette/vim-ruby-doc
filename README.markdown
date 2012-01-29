@@ -1,6 +1,9 @@
 vim-ruby-doc is a little plugin that helps you to look up Ruby/Rails/Rspec
 documentation using the good [http://apidock.com/](http://apidock.com/).
 
+If you want something similar for jQuery API documentation see
+[vim-jquery-doc](http://github.com/lucapette/vim-jquery-doc).
+
 
 Installation
 ------------
