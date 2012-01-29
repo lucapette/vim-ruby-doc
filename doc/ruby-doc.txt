@@ -1,0 +1,38 @@
+*ruby-doc.txt*   ruby-doc plugin documentation
+
+|ruby-doc-introduction|       Introduction
+|ruby-doc-configuration|      Configuration
+|ruby-doc-copyright|          Copyright
+
+
+Introduction *ruby-doc-introduction*
+
+When your cursor is on something you would look up on apidock, type:
+
+- RB for Ruby
+- RS for RSpec
+- RR for Rails
+
+and the plugin will open a new tab in your browser (or a
+new instance of the browser) to the related docs. See the following section
+for changing mappings.
+
+Configuration *ruby-doc-configuration* *g:ruby-doc_ruby_command* *g:ruby-doc_mapping*
+
+By default, the plugin uses the sensible-browser command to look up the docs
+but you can easily change the command putting the following line in your
+vimrc:
+
+    let g:ruby_doc_command='your_command'
+
+Furthermore you can choose your own mapping in the following way:
+
+    let g:ruby_doc_ruby_mapping='KK'
+
+There are g:ruby_doc_rspec_mapping and g:ruby_doc_rails_mapping variables
+too.
+
+Copyright *ruby-doc-copyright*
+
+Copyright (c) Luca Pette. Distributed under the same terms as Vim itself.
+See |license|.
