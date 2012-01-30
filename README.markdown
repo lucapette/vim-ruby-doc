@@ -31,11 +31,12 @@ for changing mappings.
 Configure it
 ------------
 
-By default, the plugin uses the `sensible-browser` command to look up the docs
-but you can easily change the command putting the following line in your
-vimrc:
+By default, the plugin uses the
+[xdg-open](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)
+command to look up the docs but you can easily change the command. For
+example, if you are OSX you would like to change it:
 
-    let g:ruby_doc_command='your_command'
+    let g:ruby_doc_command='open'
 
 Furthermore you can choose your own mapping in the following way:
 

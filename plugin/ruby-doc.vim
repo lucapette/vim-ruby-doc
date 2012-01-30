@@ -8,7 +8,7 @@ endif
 let g:loaded_ruby_doc = 1
 
 if !exists('g:ruby_doc_command')
-    let g:ruby_doc_command='sensible-browser'
+   let g:ruby_doc_command='xdg-open'
 endif
 
 if !exists('g:ruby_doc_ruby_mapping')
