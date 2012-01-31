@@ -45,6 +45,21 @@ Furthermore you can choose your own mapping in the following way:
 There are `g:ruby_doc_rspec_mapping` and `g:ruby_doc_rails_mapping` variables
 too.
 
+Roadmap
+-------
+
+The only feature I've already planned to add is commands for searching
+arbitrary stuff. Something like `:RubyDoc foo` for example. I'd like to add
+support for Windows but I'm not going to do it. So pull-requests are more than
+welcome. If you have suggestion, I'll be glad to hear it from you.
+
+Know Issues
+-----------
+
+At this very moment, the plugins works only with GUI versions of Vim. I've
+planned to fix that. Anyway, a pull-request would be more than welcome. If you
+run into other issues, please open one here on github.
+
 License
 -------
 
