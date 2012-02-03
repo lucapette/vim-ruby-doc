@@ -57,8 +57,12 @@ Know Issues
 -----------
 
 At this very moment, the plugins works only with GUI versions of Vim. I've
-planned to fix that. Anyway, a pull-request would be more than welcome. If you
-run into other issues, please open one here on github.
+planned to fix that. There is a specific
+[branch](https://github.com/lucapette/vim-ruby-doc/tree/terminal-issue) for
+the problem, because it looks like a simple issues but it's not that simple to
+make it working on all the terminals poeple use. Anyway, a pull-request would
+be more than welcome. If you run into other issues, please open one here on
+github.
 
 License
 -------
