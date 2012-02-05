@@ -13,16 +13,16 @@ When your cursor is on something you would look up on apidock, type:
 - RS for RSpec
 - RR for Rails
 
-and the plugin will open a new tab in your browser (or a
-new instance of the browser) to the related docs. See the following section
-for changing mappings.
+and the plugin will open a new tab in your browser (or a new instance of the
+browser) to the related docs. See the following section for changing mappings.
 
-Configuration *ruby-doc-configuration* *g:ruby-doc_ruby_command* *g:ruby-doc_mapping*
+Configuration *ruby-doc-configuration*
 
 By default, the plugin uses the xdg-open command to look up the docs but you
 can easily change the command. For example, if you are OSX you would like to
 change it:
 
+                                                      *g:ruby_doc_command*
     let g:ruby_doc_command='open'
 
 Furthermore you can choose your own mapping in the following way:
@@ -36,3 +36,5 @@ Copyright *ruby-doc-copyright*
 
 Copyright (c) Luca Pette. Distributed under the same terms as Vim itself.
 See |license|.
+
+ vim:tw=78:ts=8:ft=help:norl:
