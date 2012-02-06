@@ -1,11 +1,12 @@
 *ruby-doc.txt*   ruby-doc plugin documentation
 
-|ruby-doc-introduction|       Introduction
-|ruby-doc-configuration|      Configuration
-|ruby-doc-copyright|          Copyright
+1. Introduction           |ruby-doc-introduction|
+2. Configuration          |ruby-doc-configuration|
+3. Copyright              |ruby-doc-copyright|
+================================================
 
 
-Introduction *ruby-doc-introduction*
+1. Introduction                              *ruby-doc-introduction*
 
 When your cursor is on something you would look up on apidock, type:
 
@@ -14,25 +15,33 @@ When your cursor is on something you would look up on apidock, type:
 - RR for Rails
 
 and the plugin will open a new tab in your browser (or a new instance of the
-browser) to the related docs. See the following section for changing mappings.
+browser) to the related docs.
 
-Configuration *ruby-doc-configuration*
+                                               *:RubyDoc* *:RspecDoc* *:RailsDoc*
+
+The plugin adds three command-line commands for searching arbitrary stuff.
+Example:
+
+>
+   :RubyDoc each
+
+2. Configuration                                  *ruby-doc-configuration*
 
 By default, the plugin uses the xdg-open command to look up the docs but you
 can easily change the command. For example, if you are OSX you would like to
 change it:
 
-                                                      *g:ruby_doc_command*
+                                                      *g:ruby_doc_command*  >
     let g:ruby_doc_command='open'
 
-Furthermore you can choose your own mapping in the following way:
+Furthermore, you can choose your own mapping in the following way:
 
-    let g:ruby_doc_ruby_mapping='KK'
+   *g:ruby_doc_ruby* *g:ruby_doc_rspec_mapping* *g:ruby_doc_rails_mapping*  >
 
-There are g:ruby_doc_rspec_mapping and g:ruby_doc_rails_mapping variables
-too.
+   let g:ruby_doc_ruby_mapping='KK'
 
-Copyright *ruby-doc-copyright*
+
+3. Copyright                                           *ruby-doc-copyright*
 
 Copyright (c) Luca Pette. Distributed under the same terms as Vim itself.
 See |license|.

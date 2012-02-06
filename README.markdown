@@ -28,6 +28,13 @@ and the plugin will open a new tab in your browser (or a
 new instance of the browser) to the related docs. See the following section
 for changing mappings.
 
+Furthermore, the plugin defines the following commands for searching on the
+command-line arbitrary stuff:
+
+- `:RubyDoc`
+- `:RspecDoc`
+- `:RailsDoc`
+
 Configure it
 ------------
 
@@ -44,14 +51,6 @@ Furthermore you can choose your own mapping in the following way:
 
 There are `g:ruby_doc_rspec_mapping` and `g:ruby_doc_rails_mapping` variables
 too.
-
-Roadmap
--------
-
-The only feature I've already planned to add is commands for searching
-arbitrary stuff. Something like `:RubyDoc foo` for example. I'd like to add
-support for Windows but I'm not going to do it. So pull-requests are more than
-welcome. If you have suggestion, I'll be glad to hear it from you.
 
 Know Issues
 -----------
