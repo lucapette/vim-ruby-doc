@@ -1,4 +1,4 @@
-*ruby-doc.txt*   ruby-doc plugin documentation
+*ruby-doc.txt*   Browse Ruby RSpec and Rails API docs quickly
 
 1. Introduction           |ruby-doc-introduction|
 2. Configuration          |ruby-doc-configuration|
