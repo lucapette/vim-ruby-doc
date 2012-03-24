@@ -41,7 +41,7 @@ Configure it
 By default, the plugin uses the
 [xdg-open](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)
 command to look up the docs but you can easily change the command. For
-example, if you are OSX you would like to change it:
+example, if you are on OSX you would like to change it:
 
     let g:ruby_doc_command='open'
 
