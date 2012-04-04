@@ -3,10 +3,10 @@ function! s:execute(cmd)
   if has("gui_win32")
     exe "!start ".cmd
   elseif !has("gui_running")
-    silent exe '!'.cmd.' 2>&1 > /dev/null'
+    silent exe '!'.cmd.' &> /dev/null'
     exec ':redraw!'
   else
-    silent exe '!'.cmd.' 2>&1 > /dev/null &'
+    silent exe '!'.cmd.' &> /dev/null &'
   endif
   return v:shell_error
 endfunction
