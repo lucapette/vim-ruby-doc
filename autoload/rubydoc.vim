@@ -12,6 +12,13 @@ function! s:execute(cmd)
 endfunction
 
 function! rubydoc#search(type, keyword)
-  let url = '"http://apidock.com/'.a:type.'/search/quick?query='.a:keyword.'"'
+  if a:type == 'ruby'
+    let url = 'http://rubydoc.info/search/stdlib/core?q='
+  elseif a:type == 'rspec'
+    let url = 'https://www.relishapp.com/rspec/search?query='
+  elseif a:type == 'rails'
+    let url = 'http://api.rubyonrails.org/?q='
+  endif
+  let url = '"'.url.a:keyword.'"'
   call s:execute(g:ruby_doc_command.' '.url)
 endfunction
