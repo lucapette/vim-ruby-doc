@@ -30,15 +30,14 @@ Or you can unzip it in your `~/.vim` directory.
 How to use it
 -------------
 
-When your cursor is on something you would look up on apidock, type:
+In Normal mode, when your cursor is on something you would look up type:
 
 - `RB` for Ruby
 - `RS` for RSpec
 - `RR` for Rails
 
-and the plugin will open a new tab in your browser (or a
-new instance of the browser) to the related docs. See the following section
-for changing mappings.
+and the plugin will open a new tab in your browser (or a new instance of the
+browser) to the related docs. See the following section for changing mappings.
 
 Furthermore, the plugin defines the following commands for searching on the
 command-line arbitrary stuff:
@@ -63,6 +62,17 @@ Furthermore you can choose your own mapping in the following way:
 
 There are `g:ruby_doc_rspec_mapping` and `g:ruby_doc_rails_mapping` variables
 too.
+
+Contributors
+------------
+
+* [imajes](https://github.com/imajes)
+
+  Include /doc/tags in .gitignore.
+
+* [coffeejunk](https://github.com/coffeejunk)
+
+  Move away from apidock.
 
 License
 -------
