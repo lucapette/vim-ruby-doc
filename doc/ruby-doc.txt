@@ -8,7 +8,7 @@
 
 1. Introduction                              *ruby-doc-introduction*
 
-When your cursor is on something you would look up on apidock, type:
+In Normal mode, when your cursor is on something you would look up type:
 
 - RB for Ruby
 - RS for RSpec
