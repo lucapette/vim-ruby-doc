@@ -13,7 +13,7 @@ endfunction
 
 function! rubydoc#search(type, keyword)
   if a:type == 'ruby'
-    let url = 'http://rubydoc.info/search/stdlib/core?q='
+    let url = 'http://apidock.com/ruby/'
   elseif a:type == 'rspec'
     let url = 'https://www.relishapp.com/rspec/search?query='
   elseif a:type == 'rails'
