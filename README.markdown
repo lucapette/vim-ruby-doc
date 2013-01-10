@@ -3,7 +3,7 @@ the following resources:
 
 * *Ruby*
 
-  [rubydoc.info](http://rubydoc.info/stdlib)
+  [apidock.com](http://apidock.com/ruby)
 
 * *RSpec*
 
