@@ -23,6 +23,18 @@ if !exists('g:ruby_doc_rails_mapping')
     let g:ruby_doc_rails_mapping='RR'
 endif
 
+if !exists('g:ruby_doc_ruby_search_host')
+    let g:ruby_doc_ruby_search_host='http://rubydoc.info/search/stdlib/core?q='
+endif
+
+if !exists('g:ruby_doc_rspec_search_host')
+    let g:ruby_doc_rspec_search_host='https://www.relishapp.com/rspec/search?query='
+endif
+
+if !exists('g:ruby_doc_rails_search_host')
+    let g:ruby_doc_rails_search_host='http://api.rubyonrails.org/?q='
+endif
+
 execute "noremap <silent> ".g:ruby_doc_ruby_mapping." :call rubydoc#search('ruby',expand('<cword>'))<CR>"
 execute "noremap <silent> ".g:ruby_doc_rspec_mapping." :call rubydoc#search('rspec',expand('<cword>'))<CR>"
 execute "noremap <silent> ".g:ruby_doc_rails_mapping." :call rubydoc#search('rails',expand('<cword>'))<CR>"
