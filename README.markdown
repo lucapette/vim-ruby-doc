@@ -74,6 +74,10 @@ Contributors
 
   Move away from apidock.
 
+* [sumskyi](https://github.com/sumskyi)
+
+  Add configurable search host
+
 License
 -------
 
