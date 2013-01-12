@@ -13,7 +13,6 @@ the following resources:
 
   [http://api.rubyonrails.org](http://api.rubyonrails.org)
 
-
 If you want something similar for jQuery API documentation see
 [vim-jquery-doc](http://github.com/lucapette/vim-jquery-doc).
 
@@ -62,6 +61,10 @@ Furthermore you can choose your own mapping in the following way:
 
 There are `g:ruby_doc_rspec_mapping` and `g:ruby_doc_rails_mapping` variables
 too.
+
+You can change where the plugin should search very easily:
+
+    let g:ruby_doc_ruby_search_host='http://apidock.com/ruby/'
 
 Contributors
 ------------
