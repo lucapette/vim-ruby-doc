@@ -64,7 +64,7 @@ too.
 
 You can change where the plugin should search very easily:
 
-    let g:ruby_doc_ruby_search_host='http://apidock.com/ruby/'
+    let g:ruby_doc_ruby_host='http://apidock.com/ruby/'
 
 Contributors
 ------------

@@ -43,9 +43,9 @@ Furthermore, you can choose your own mapping in the following way:
 
 You can change the host where the plugin should search for documentation:
 
-   *g:ruby_doc_ruby_search_host* *g:ruby_doc_rspec_search_host* *g:ruby_doc_rails_search_host*  >
+   *g:ruby_doc_ruby_host* *g:ruby_doc_rspec_search_host* *g:ruby_doc_rails_search_host*  >
 
-   let g:ruby_doc_ruby_search_host='https://apidock/ruby'
+   let g:ruby_doc_ruby_host='https://apidock/ruby'
 
 
 3. Copyright                                           *ruby-doc-copyright*
