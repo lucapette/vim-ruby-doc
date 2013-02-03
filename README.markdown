@@ -79,7 +79,11 @@ Contributors
 
 * [sumskyi](https://github.com/sumskyi)
 
-  Add configurable search host
+  Add configurable search host.
+
+* [dhruvasagar](https://github.com/dhruvasagar)
+
+  Moving mappings to filetype directory
 
 License
 -------
